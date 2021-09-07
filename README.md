@@ -10,7 +10,7 @@ SelfStudy_SSE folder contains an implementation using SSE2. SelfStudy_AVX folder
 
 AVX version has to be compiled with -mavx option.
 
-`main` program runs the comparison and prints the time it took for each (naive byte-by-byte, naive word-by-word vs SIMD) approach.
+`main` program runs the comparison and prints the time it took for each (naive byte-by-byte, naive word-by-word vs SIMD) approach. time is measured in units returned by the unix clock() function, which is generally in microseconds.
 
 Some screenshots are in Screenshots/ folder.
 
